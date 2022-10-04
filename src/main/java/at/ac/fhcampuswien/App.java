@@ -163,6 +163,9 @@ public class App {
         System.out.print("Number: ");
         number = scanner.nextInt();
 
+        /*
+        The following lines 169-171 have been taken from the internet | https://www.programiz.com/java-programming/examples/reverse-number; 04.10.2022
+         */
         for (;number != 0; number /= 10) {
             digit = number % 10;
             reversedNumber = reversedNumber * 10 + digit;
